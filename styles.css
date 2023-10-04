@@ -1,0 +1,39 @@
+
+body{
+    border-color: black;
+    border-width: 4px;
+    line-height: 2;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(7px);   
+}
+
+p{
+    margin-top: 0%;
+    font-size: 45px;
+    color: rgb(97, 15, 15);
+    text-decoration: underline;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+legend h2{
+    color: rgb(38, 8, 8);
+}
+
+button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    font-size: larger;
+}
+
+button:hover{
+    background-color: rgb(117, 24, 24);
+    color: white;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="shortcut-icon" href="shortcut icon.png" type="image/x-icon">
+    <title>SUBMISSION FORM USING PHP</title> 
+</head>
+<body>
+    <header>
+        <p>DSP UNIVERSITY</p>
+    </header>
+    <main>
+        
+            <form action="Successful.php" method="post">
+                <a href="Mainform.html">Update Information</a><br>
+                <a href="Successful.php">View Updated Information</a>
+                <fieldset>
+                <legend><h2>Student Infromation</h2></legend>
+                    <div class="mainform">
+                        <label for="sid">STUDENT ID</label>
+                        <input type="int" placeholder="Enter Your 9 Digit Student id Number" id="sid" name="sid" maxlength="9"><br>
+
+                        <label for="fname">FULL NAME</label>
+                        <input type="text" id="fname" name="fname" required><br>
+                        
+                        <label for="email">EMAIL-ID</label>
+                        <input type="email" id="email" name="email" required><br>
+
+                        <label for="address">ADDRESS</label>
+                        <input for="text" id="address" name="address"><br>
+
+                        <label for="postalcode">POSTAL CODE</label>
+                        <input for="text" id="postalcode" name="postalcode" maxlength="6"><br>
+
+                        <label for="code">COUNTRY CODE</label>
+                        <input for="text" id="code" name="code" maxlength="5"><br>
+
+                        <label for="contact">CONTACT NUMBER</label>
+                        <input type="int" maxlength="10" id="contact" name="contact"><br>
+
+                        <label for="code1">COUNTRY CODE</label>
+                        <input for="text" id="code1" name="code1" maxlength="5"><br>
+
+                        <label for="emergencyno">EMERGENCY CONTACT NUMBER</label>
+                        <input type="int" maxlength="10" id="emergencyno" name="emergencyno"><br>
+
+                        <label for="sin">SIN NUMBER</label>
+                        <input type="int" maxlength="9" id="sin" name="sin"><br>
+
+                        <button type="update">UPDATE</button>
+                        <button type="cancel">CANCEL</button>
+                    </div>
+            </form>
+        </fieldset>
+        <footer>
+            Please enter correct details only.
+        </footer>
+    </main>
+</body>
+</html>
+
